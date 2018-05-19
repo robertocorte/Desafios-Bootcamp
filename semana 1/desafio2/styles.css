@@ -1,0 +1,22 @@
+
+h1 {
+	font-size: 30px;
+	font-family: Raleway, sans-serif;
+	border-bottom: 1px solid gray;
+	width:260px;
+}
+
+.container	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-evenly;
+}
+.row-1,	.row-2, .row-3 {
+	display: flex;
+}
+
+img {
+  max-width: 370px;
+  max-height: 370px;
+  margin: 30px;
+}
